@@ -141,7 +141,7 @@ class AppComponent extends LitElement {
   constructor() {
     super();
     httpClient.init({
-      baseURL: `http://localhost:3000`,
+      baseURL: `http://stud-vm-0826:3000`,
       apiPath: 'api',
       filesPath: 'files'
     });
