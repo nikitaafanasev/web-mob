@@ -1,0 +1,12 @@
+form > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+ion-img {
+  width: 20rem;
+  height: 20rem;
+}
+
+ion-button {
+  width: 100%;
+}

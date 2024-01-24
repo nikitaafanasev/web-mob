@@ -1,0 +1,14 @@
+{
+  "appId": "de.wifhm.restaurant",
+  "appName": "RestaurantApp",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "hostname": "127.0.0.1"
+  },
+  "plugins": {
+    "CapacitorCookies": {
+      "enabled": true
+    }
+  }
+}

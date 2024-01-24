@@ -1,0 +1,240 @@
+{
+  "tasks": {
+    "johndoe@example.org": [
+      {
+        "title": "Einkaufen",
+        "status": "open",
+        "description": "Eier, Milch, Käse",
+        "dueDate": "yesterday"
+      },
+      {
+        "title": "Putzen",
+        "status": "open",
+        "description": "Saugen und wischen",
+        "dueDate": "today"
+      },
+      {
+        "title": "Kochen",
+        "status": "open",
+        "description": "Neues Rezept ausprobieren!",
+        "dueDate": "+2"
+      }
+    ]
+  },
+  "users": {
+    "waiter@example.org": {
+      "id": "1",
+      "password": "password",
+      "role": "waiter",
+      "name": {
+        "first": "Anna",
+        "last": "Schmidt"
+      },
+      "email": "waiter@example.org"
+    },
+    "chef@example.org": {
+      "id": "2",
+      "password": "password",
+      "role": "chef",
+      "name": {
+        "first": "Max",
+        "last": "Mustermann"
+      },
+      "email": "chef@example.org"
+    },
+    "barkeeper@example.org": {
+      "id": "3",
+      "password": "password",
+      "role": "barkeeper",
+      "name": {
+        "first": "Hans",
+        "last": "Müller"
+      },
+      "email": "barkeeper@example.org"
+    },
+    "guest@example.org": {
+      "id": "4",
+      "password": "password",
+      "role": "guest",
+      "name": {
+        "first": "Gustav",
+        "last": "Gans"
+      },
+      "email": "guest@example.org",
+      "table": 8
+    },
+    "guest2@example.org": {
+      "id": "5",
+      "password": "password",
+      "role": "guest",
+      "name": {
+        "first": "Donald",
+        "last": "Duck"
+      },
+      "email": "guest2@example.org",
+      "table": 4
+    }
+  },
+  "menuItems": [
+    {
+      "id": "1",
+      "name": "Caprese Salad",
+      "description": "Tomatoes and mozzarella with fresh basil",
+      "price": 7.99,
+      "type": "food",
+      "categories": ["entree", "vegetarian"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "2",
+      "name": "Bruschetta",
+      "description": "Toasted bread with tomatoes, garlic, and olive oil",
+      "price": 8.49,
+      "type": "food",
+      "categories": ["entree"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "3",
+      "name": "Vegetable Spring Rolls",
+      "description": "Crispy spring rolls with vegetable filling",
+      "price": 6.99,
+      "type": "food",
+      "categories": ["entree", "vegan"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "4",
+      "name": "Gazpacho Soup",
+      "description": "Cold tomato soup with vegetable cubes",
+      "price": 7.29,
+      "type": "food",
+      "categories": ["entree", "vegan"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "5",
+      "name": "Grilled Salmon",
+      "description": "Juicy grilled salmon fillet with lemon and herbs",
+      "price": 14.99,
+      "type": "food",
+      "categories": ["entree", "seafood"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "6",
+      "name": "Chicken Alfredo Pasta",
+      "description": "Creamy Alfredo sauce with grilled chicken over pasta",
+      "price": 12.99,
+      "type": "food",
+      "categories": ["entree", "pasta"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "7",
+      "name": "Vegetarian Stir-Fry",
+      "description": "Assorted vegetables stir-fried in a savory sauce",
+      "price": 11.49,
+      "type": "food",
+      "categories": ["entree", "vegetarian"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "8",
+      "name": "Beef Tenderloin Steak",
+      "description": "Perfectly grilled beef tenderloin steak with garlic butter",
+      "price": 18.99,
+      "type": "food",
+      "categories": ["entree", "meat"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "9",
+      "name": "Chocolate Fondue",
+      "description": "Rich melted chocolate served with assorted fruits and marshmallows",
+      "price": 9.99,
+      "type": "food",
+      "categories": ["dessert", "vegetarian"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "10",
+      "name": "New York Cheesecake",
+      "description": "Classic New York-style cheesecake with a graham cracker crust",
+      "price": 8.49,
+      "type": "food",
+      "categories": ["dessert", "vegetarian"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "11",
+      "name": "Fruit Sorbet",
+      "description": "Refreshing fruit sorbet with a medley of seasonal flavors",
+      "price": 7.99,
+      "type": "food",
+      "categories": ["dessert", "vegan"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "12",
+      "name": "Tiramisu",
+      "description": "Classic Italian tiramisu with layers of coffee-soaked ladyfingers and mascarpone",
+      "price": 10.49,
+      "type": "food",
+      "categories": ["dessert", "vegetarian"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "13",
+      "name": "Sparkling Lemonade",
+      "description": "Refreshing lemonade with a splash of sparkling water",
+      "price": 4.99,
+      "type": "drink",
+      "categories": ["non-alcoholic"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "14",
+      "name": "Iced Cappuccino",
+      "description": "Chilled cappuccino with espresso, milk, and ice",
+      "price": 5.49,
+      "type": "drink",
+      "categories": ["non-alcoholic"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "15",
+      "name": "Mojito",
+      "description": "Classic Mojito with fresh mint, lime, and rum",
+      "price": 8.99,
+      "type": "drink",
+      "categories": ["alcoholic"],
+      "comments": [],
+      "ratings": []
+    },
+    {
+      "id": "16",
+      "name": "Swimming Pool",
+      "description": "Tropical cocktail resembling a Swimming Pool with blue curaçao and pineapple juice",
+      "price": 7.79,
+      "type": "drink",
+      "categories": ["alcoholic"],
+      "comments": [],
+      "ratings": []
+    }
+  ]
+}

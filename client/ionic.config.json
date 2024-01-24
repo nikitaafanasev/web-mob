@@ -1,0 +1,7 @@
+{
+  "name": "RestaurantApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

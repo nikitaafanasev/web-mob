@@ -1,0 +1,11 @@
+ion-icon ~ span {
+  margin-left: 0.5rem;
+}
+
+ion-icon {
+  color: var(--ion-color-medium);
+}
+
+ion-item {
+  padding: 1rem 0;
+}

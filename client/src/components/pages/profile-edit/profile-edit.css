@@ -1,0 +1,13 @@
+ion-avatar {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+form {
+  width: 100%;
+}
+
+#image {
+  display: none;
+}

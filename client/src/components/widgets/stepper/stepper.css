@@ -1,0 +1,127 @@
+.stepper-horizontal {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+
+  table-layout: fixed;
+}
+
+.stepper-horizontal .step {
+  display: table-cell;
+  position: relative;
+  padding: 1rem;
+
+  width: 100%;
+}
+
+.stepper-horizontal .step:active {
+  background-color: rgba(var(--ion-color-dark-rgb), 0.04);
+}
+
+.stepper-horizontal .step:active {
+  border-radius: 15% / 75%;
+}
+
+.stepper-horizontal .step:first-child:active {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.stepper-horizontal .step:last-child:active {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.stepper-horizontal .step:first-child .step-bar-left,
+.stepper-horizontal .step:last-child .step-bar-right {
+  display: none;
+}
+
+.stepper-horizontal .step .step-circle {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  background-color: var(--ion-color-medium);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--ion-color-light);
+}
+
+.stepper-horizontal .step.active .step-circle {
+  background-color: var(--ion-color-primary);
+}
+
+.stepper-horizontal .step.done .step-circle:before {
+  font-weight: 100;
+  content: '\f00c';
+}
+
+.stepper-horizontal .step.editable .step-circle {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.stepper-horizontal .step.editable .step-circle:before {
+  font-family: 'FontAwesome';
+  font-weight: 100;
+  content: '\f040';
+}
+
+.stepper-horizontal .step .step-title {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.stepper-horizontal .step .step-title,
+.stepper-horizontal .step .step-optional {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.stepper-horizontal .step.active .step-title {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.stepper-horizontal .step.active.done .step-title,
+.stepper-horizontal .step.active.editable .step-title {
+  font-weight: 600;
+}
+
+.stepper-horizontal .step .step-optional {
+  font-size: 12px;
+}
+
+.stepper-horizontal .step.active .step-optional {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.stepper-horizontal .step .step-bar-left,
+.stepper-horizontal .step .step-bar-right {
+  position: absolute;
+  top: 36px;
+  height: 1px;
+  border-top: 2px solid rgba(var(--ion-color-medium-rgb), 0.5);
+}
+
+.stepper-horizontal .step .step-bar-right {
+  right: 0;
+  left: 50%;
+  margin-left: 1rem;
+}
+.stepper-horizontal .step .step-bar-left {
+  left: 0;
+  right: 50%;
+  margin-right: 1rem;
+}
+
+/* when done, then make .step-title checkmark green */
+.step-circle.done:before {
+  content: 'c';
+  color: rgba(0, 0, 0, 0.87);
+}

@@ -1,0 +1,10 @@
+ion-avatar {
+    width: 5rem;
+    height: 7em;
+    object-fit: cover;
+    object-position: left;
+}
+
+ion-chip {
+   background:  #e9887a;
+  }

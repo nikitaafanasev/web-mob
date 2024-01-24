@@ -1,0 +1,10 @@
+ion-img {
+    width: 5rem;
+    height: 5em;
+    object-fit: cover;
+    object-position: center;
+}
+
+ion-button {
+    margin: 1rem;
+}

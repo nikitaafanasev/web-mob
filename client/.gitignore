@@ -1,0 +1,10 @@
+# Packages
+node_modules/
+
+# Generierte Dateien
+dist/
+
+# Mac only
+.DS_Store
+
+

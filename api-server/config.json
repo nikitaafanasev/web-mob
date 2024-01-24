@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "db": {
+    "use": "in-memory-db",
+    "seed": true,
+    "connect": {
+      "user": "webmob",
+      "host": "localhost",
+      "database": "webmob",
+      "password": "wifhm",
+      "port": {
+        "mongodb": 27017
+      }
+    }
+  }
+}

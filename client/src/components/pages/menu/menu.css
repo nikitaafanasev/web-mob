@@ -1,0 +1,57 @@
+:host {
+  --rating-size: 0.75rem;
+}
+
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+ion-img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  margin: 1rem 1rem 1rem 0;
+}
+
+ion-img::part(image) {
+  border-radius: 1rem;
+}
+
+#filterIcon {
+  margin-right: 1rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.rating ion-icon {
+  margin-right: 0.25rem;
+}
+
+.rating > * {
+  font-size: var(--rating-size);
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.item-description {
+  margin-top: 0.25rem;
+  color: var(--ion-color-medium);
+}
+
+.rating-value {
+  color: var(--ion-color-medium);
+}

@@ -1,0 +1,14 @@
+# Packages
+node_modules/
+
+# Generierte Dateien
+coverage/
+
+# Mac only
+.DS_Store
+
+# File System
+/files
+
+
+

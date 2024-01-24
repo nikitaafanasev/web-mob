@@ -1,0 +1,16 @@
+:host {
+  max-width: 36rem;
+  margin-top: 1rem;
+}
+
+a {
+  color: rgb(110 174 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: hidden;
+}

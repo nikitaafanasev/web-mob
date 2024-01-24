@@ -1,0 +1,27 @@
+ion-icon[name='arrow-forward-outline'] {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+#dollar {
+  margin-left: 1rem;
+  margin-right: 0.25rem;
+}
+
+.payment-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.payment-buttons ion-button {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
