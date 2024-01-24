@@ -7,7 +7,7 @@
     "seed": true,
     "connect": {
       "user": "webmob",
-      "host": "localhost",
+      "host": "stud-vm-0826",
       "database": "webmob",
       "password": "wifhm",
       "port": {
